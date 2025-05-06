@@ -8,7 +8,7 @@ public class BulkFileHandling {
 					   WHERE QualifiedApiName LIKE :searchTerm];
             return defList;
         }catch(Exception e){
-            System.debug('Error Message ' + e.getMessage() + 'Error Line no ' + e.getLineNumber());
+            System.debug('Error Me' + e.getMessage() + 'Error Line no ' + e.getLineNumber());
             return defList;
         }
  	}
